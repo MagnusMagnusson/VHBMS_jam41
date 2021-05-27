@@ -5,3 +5,12 @@
 #macro IS_THROWING state == STATE_THROWING
 #macro IS_FLYING state == STATE_FLYING
 #macro SET_STATE_TO state = 
+
+#macro PIXELS_IN_METER 80
+#macro PX_TO_METER /PIXELS_IN_METER
+#macro METER_TO_PX *PIXELS_IN_METER
+
+#macro CAM_X camera_get_view_x(view_camera[0])
+#macro CAM_Y camera_get_view_y(view_camera[0])
+
+#macro C_BLOOD $0011CC
