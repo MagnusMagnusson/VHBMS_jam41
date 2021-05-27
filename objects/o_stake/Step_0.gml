@@ -1,4 +1,4 @@
-if(speed > 1)
+if(speed > 1){
 	image_angle = direction
 } else{
 	image_angle = forcedDirection;
