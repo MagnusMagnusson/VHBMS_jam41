@@ -1,0 +1,17 @@
+commit 245107bed5da621603f94c32417df171c190217e
+Author: Magnus_Magnusson <magnusm15@ru.is>
+Date:   Thu May 27 14:05:40 2021 +0000
+
+    14:05, Van helsing is on the scene and is preparing to throw his stake
+
+commit 69cb21ae2c7382ad9fb0b4cd3a6e86108f4d4ce8
+Author: Magnus_Magnusson <magnusm15@ru.is>
+Date:   Thu May 27 12:49:03 2021 +0000
+
+    raw asset folder
+
+commit cd9bece0b37b3fcbc1bad28cec2412131f887339
+Author: Magnus_Magnusson <magnusm15@ru.is>
+Date:   Thu May 27 12:48:20 2021 +0000
+
+    init

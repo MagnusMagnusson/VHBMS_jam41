@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_van_helsing",
-    "path": "sprites/s_van_helsing/s_van_helsing.yy",
+    "name": "sp_stake_wood",
+    "path": "sprites/sp_stake_wood/sp_stake_wood.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,8 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_helsing",
+  "name": "o_stake",
   "tags": [],
   "resourceType": "GMObject",
 }

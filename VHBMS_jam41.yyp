@@ -1,11 +1,16 @@
 {
   "resources": [
+    {"id":{"name":"scr_circlemeter","path":"scripts/scr_circlemeter/scr_circlemeter.yy",},"order":4,},
     {"id":{"name":"scr_ArrayClass","path":"scripts/scr_ArrayClass/scr_ArrayClass.yy",},"order":1,},
+    {"id":{"name":"o_stake","path":"objects/o_stake/o_stake.yy",},"order":1,},
     {"id":{"name":"o_helsing","path":"objects/o_helsing/o_helsing.yy",},"order":0,},
     {"id":{"name":"s_van_helsing","path":"sprites/s_van_helsing/s_van_helsing.yy",},"order":1,},
     {"id":{"name":"sp_stake_wood","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},"order":0,},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":2,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
+    {"id":{"name":"scr_reserved_keys","path":"scripts/scr_reserved_keys/scr_reserved_keys.yy",},"order":3,},
     {"id":{"name":"scr_stakes","path":"scripts/scr_stakes/scr_stakes.yy",},"order":0,},
+    {"id":{"name":"o_ctrl","path":"objects/o_ctrl/o_ctrl.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -7,4 +7,13 @@ if(IS_AIMING){
 		angleDir = -angleDir;
 		angle = -30;
 	}
+} else if(IS_THROWING){
+	force += force_direction;
+	if(force > max_force){
+		force = max_force;
+		force_direction = -force_direction;
+	} else if (force < 0){
+		force = 0; 
+		force_direction = -force_direction;
+	}
 }
