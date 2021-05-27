@@ -1,7 +1,7 @@
 
 if(IS_AIMING || IS_THROWING){
 	var _x, _y, scale, len;
-	len = 45;
+	len = 64;
 	_x = x + lengthdir_x(len,angle);
 	_y = y + lengthdir_y(len,angle);
 	scale = 0.5;

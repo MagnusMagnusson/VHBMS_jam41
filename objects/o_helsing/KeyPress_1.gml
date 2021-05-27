@@ -3,7 +3,14 @@ if(!reserved_key_pressed()){
 		SET_STATE_TO STATE_THROWING;
 	} else if(IS_THROWING){
 		SET_STATE_TO STATE_FLYING;
-		var s = instance_create_depth(x,y,0,o_stake);
+		var len, _x, _y;
+			len = 64;
+			_x = x + lengthdir_x(len,angle);
+			_y = y + lengthdir_y(len,angle);
+	
+		var s = instance_create_depth(_x,_y,0,o_stake);
+		
+		
 		s.stake = stake;
 		s.direction = angle;
 		s.speed = force / stake.weight;

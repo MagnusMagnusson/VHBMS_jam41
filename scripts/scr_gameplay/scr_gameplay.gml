@@ -10,6 +10,15 @@ function reset(){
 		force = 0;
 		angle = 0;
 	}
+	with(o_you_missed){
+		with(o_button){
+			if(attach == other.id){
+				instance_destroy(id);
+				attach = noone;
+			}
+		}
+		instance_destroy(id);
+	}
 }
 
 function open_shop(){
