@@ -1,0 +1,7 @@
+#macro STATE_AIMING 1
+#macro STATE_THROWING 2
+#macro STATE_FLYING 3
+#macro IS_AIMING state == STATE_AIMING
+#macro IS_THROWING state == STATE_THROWING
+#macro IS_FLYING state == STATE_FLYING
+#macro SET_STATE_TO state = 
