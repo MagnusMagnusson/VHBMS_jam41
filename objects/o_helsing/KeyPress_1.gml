@@ -12,6 +12,7 @@ if(!reserved_key_pressed()){
 		
 		
 		s.stake = stake;
+		s.sprite_index = s.stake.sprite;
 		s.direction = angle;
 		s.speed = force / stake.weight;
 	}

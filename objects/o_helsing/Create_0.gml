@@ -1,8 +1,8 @@
 SET_STATE_TO STATE_AIMING;
 angle = 0;
-angleDir = 4;
+angleDir = 6;
 force = 0;
-stake = stake_get("stake_wood");
+stake = stake_get("stake_carbon");
 max_force = 2*20;
 force_direction = 2;
 

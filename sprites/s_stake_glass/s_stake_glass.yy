@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
+  "bbox_left": 6,
   "bbox_right": 118,
-  "bbox_top": 15,
-  "bbox_bottom": 45,
+  "bbox_top": 18,
+  "bbox_bottom": 48,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"134659a0-d2af-4931-a120-f3ae352d2381","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"134659a0-d2af-4931-a120-f3ae352d2381","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},"LayerId":{"name":"3ad5582f-f7cc-4c74-a6dd-6474d4912e3a","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sp_stake_wood","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},"resourceVersion":"1.0","name":"134659a0-d2af-4931-a120-f3ae352d2381","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"162e8399-d755-4b39-9653-83150a3cfc42","path":"sprites/s_stake_glass/s_stake_glass.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"162e8399-d755-4b39-9653-83150a3cfc42","path":"sprites/s_stake_glass/s_stake_glass.yy",},"LayerId":{"name":"122e5924-83a3-4c18-a657-70ae978e915a","path":"sprites/s_stake_glass/s_stake_glass.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_stake_glass","path":"sprites/s_stake_glass/s_stake_glass.yy",},"resourceVersion":"1.0","name":"162e8399-d755-4b39-9653-83150a3cfc42","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sp_stake_wood","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},
+    "spriteId": {"name":"s_stake_glass","path":"sprites/s_stake_glass/s_stake_glass.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4a90f34f-1275-4ed9-a659-5328b5a99dad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"134659a0-d2af-4931-a120-f3ae352d2381","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2c08b554-b4d8-4ea8-8366-b23a43418694","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"162e8399-d755-4b39-9653-83150a3cfc42","path":"sprites/s_stake_glass/s_stake_glass.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 59,
-    "yorigin": 30,
+    "xorigin": 57,
+    "yorigin": 34,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sp_stake_wood","path":"sprites/sp_stake_wood/sp_stake_wood.yy",},
+    "parent": {"name":"s_stake_glass","path":"sprites/s_stake_glass/s_stake_glass.yy",},
     "resourceVersion": "1.3",
-    "name": "sp_stake_wood",
+    "name": "s_stake_glass",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ad5582f-f7cc-4c74-a6dd-6474d4912e3a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"122e5924-83a3-4c18-a657-70ae978e915a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sp_stake_wood",
+  "name": "s_stake_glass",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -20,6 +20,9 @@ if(active){
 			speed = 0;
 			gravity = 0;
 			active = false;
+			if(stake.key == "stake_glass"){
+				image_alpha = 0;
+			}
 			fail();
 		}
 	}
