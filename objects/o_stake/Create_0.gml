@@ -4,3 +4,5 @@ stake = noone;
 gravity = 0.25;
 forcedDirection = 0;
 active = true;
+spawnCoins = 0;
+life = 0;

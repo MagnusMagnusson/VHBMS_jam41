@@ -11,9 +11,9 @@ if(!reserved_key_pressed()){
 		var s = instance_create_depth(_x,_y,0,o_stake);
 		
 		
-		s.stake = stake;
-		s.sprite_index = s.stake.sprite;
+		setStake(s, stake);
+		s.life += o_ctrl.stats.durability;
 		s.direction = angle;
-		s.speed = force / stake.weight;
+		s.speed = (power(1.2, o_ctrl.stats.strength) * force) / stake.weight;
 	}
 }

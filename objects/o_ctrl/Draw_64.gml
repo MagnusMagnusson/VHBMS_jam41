@@ -8,5 +8,7 @@ if instance_exists(o_stake){
 	}
 } else{
 	draw_text(0,0,"0 Meters");
-
 }
+
+
+draw_text(0,64,string(floor(gold)) + " Gold");

@@ -5,6 +5,18 @@ if(speed > 1){
 }
 
 if(active){
+	var dx,dy;
+	dx = hspeed;
+	dy = vspeed;
+	o_ctrl.gold += (sqrt(dx*dx + dy*dy)/250) * stake.moneyBonus * power(1.15,o_ctrl.stats.money_bonus);
+	
+	if(spawnCoins > 0){
+		spawnCoins -= 3;
+		instance_create_depth(x,y,depth-1,o_coin);
+		instance_create_depth(x,y,depth-1,o_coin);
+		instance_create_depth(x,y,depth-1,o_coin);
+	}
+	
 	var cam = view_camera[0];
 	var camw, camh;
 	camw = camera_get_view_width(cam);
