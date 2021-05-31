@@ -9,5 +9,3 @@ force_direction = 2;
 surf_power_gage = -4;
 
 stage = 0;
-show_debug_message(global.stakes);
-show_debug_message(stake);

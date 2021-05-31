@@ -1,2 +1,2 @@
-price = 10;
+price = 10000;
 stake = stake_get("stake_gold");

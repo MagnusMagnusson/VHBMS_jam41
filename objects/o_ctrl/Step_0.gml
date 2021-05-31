@@ -9,3 +9,7 @@ if(!instance_exists(o_stake)){
 		}
 	}
 }
+
+if(instance_exists(o_stake)){
+	highest_throw = max( highest_throw, (600 - o_stake.y) PX_TO_METER);
+}

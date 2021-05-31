@@ -1,5 +1,6 @@
 if(other.speed > 5){
 	if(active){
+		audio_play_sound(snd_vampire,1, false);
 		other.life--;
 		other.speed *= other.stake.slowdown;
 		if(other.life <= 0){

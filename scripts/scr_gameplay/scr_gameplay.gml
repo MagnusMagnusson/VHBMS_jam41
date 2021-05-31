@@ -1,5 +1,10 @@
 function fail(){
 	instance_create_layer(o_stake.x, room_height / 8, layer_get_id("il_ui"), o_you_missed);
+		save("records.json", {
+		long : o_ctrl.longest_throw,
+		high : o_ctrl.highest_throw,
+		gold : o_ctrl.gold,
+	})
 }
 
 function createStuff(x0, x1){
@@ -17,6 +22,20 @@ function createStuff(x0, x1){
 	}
 	for(var i = x0 + GHOST_DISTANCE; i < x1; i += GHOST_DISTANCE){
 			instance_create_depth((i + irandom(3)) METER_TO_PX ,  -40 - irandom_range(-5,45), depth, o_ghost);
+	}
+	for(var i = x0 + CROSS_DISTANCE; i < x1; i += CROSS_DISTANCE){
+			var s = instance_create_depth(i METER_TO_PX ,  550, depth, o_cross);
+			s.image_xscale = 1.25;
+			s.image_yscale = 1.25;
+	}	
+	for(var i = x0 + WATER_DISTANCE; i < x1; i += WATER_DISTANCE){
+			var w = instance_create_depth((i + irandom(3)) METER_TO_PX ,  600, depth, o_water);
+			w.image_xscale = 4;
+			w.image_yscale = 4;
+	}	
+	for(var i = x0 + BAT_DISTANCE; i < x1; i += BAT_DISTANCE){
+			var w = instance_create_depth((i + irandom(3)) METER_TO_PX ,  -100 + random_range(-100,450), depth, o_bat);
+
 	}
 }
 

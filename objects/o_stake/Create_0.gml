@@ -6,3 +6,5 @@ forcedDirection = 0;
 active = true;
 spawnCoins = 0;
 life = 0;
+snd = 1;
+lookcool = 0;

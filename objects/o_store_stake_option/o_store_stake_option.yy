@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_store_option",
+    "path": "objects/o_store_option/o_store_option.yy",
+  },
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,

@@ -15,6 +15,7 @@ if(active){
 		instance_create_depth(x,y,depth-1,o_coin);
 		instance_create_depth(x,y,depth-1,o_coin);
 		instance_create_depth(x,y,depth-1,o_coin);
+		
 	}
 	
 	var cam = view_camera[0];
@@ -28,10 +29,14 @@ if(active){
 		vspeed = -vspeed;
 		speed = speed * stake.bounce;
 		y = 600;
+		if(visible){
+			audio_play_sound(snd_boing,1,false);
+		}
 		if(speed < 3){
 			speed = 0;
 			gravity = 0;
 			active = false;
+			
 			if(stake.key == "stake_glass"){
 				image_alpha = 0;
 			}
